@@ -1,0 +1,146 @@
+
+body .about,.blogs,.contact{
+  font-family: "Jost", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+}
+/* about */
+
+.about h1{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.about h1 span{
+  color:white;
+}
+#about{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    color: white;
+  }
+  #about .container{
+    padding-top: 70px;
+  }
+  .heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .heading span{
+    color: #b2744c;
+  }
+  #about .card{
+    border-radius: 10px;
+  }
+  #about .card img{
+    border-radius: 10px;
+    
+  }
+  #about-btn{
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #b2744c;
+    color: #b2744c;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  #about-btn:hover{
+    background: #b2744c;
+    color: white;
+  }
+  @media screen and (max-width:982px){
+    #about p{
+      font-size: 8px;
+    }
+  }
+  @media screen and (max-width:766px){
+    #about p{
+      font-size: 15px;
+    }
+    #about{
+      height: 120vh;
+    }
+  }
+  /* about */
+  
+
+/* blogs */
+.blogs{
+  padding-top: 10px;
+  width: 100%;
+  background: black;
+  padding-bottom: 20px;
+}
+.blogs h1{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+.blogs h1 span{
+  color:white;
+}
+.blogs .container{
+  margin-top: 60px;
+}
+.blogs h5{
+  color:burlywood;
+}
+#blogbtn{
+  width: 200px;
+  height: 36px;
+  border: none;
+  color: white;
+  background: #b2744c;
+  cursor: pointer;
+}
+.blogs h3,p{color: white;}
+.card-body{background-color: brown;}
+/* blogs */
+
+
+  /*contact section*/
+.dark,body{
+  background-color: black;
+  color: white;
+   /*buttons*/
+.btn{
+  
+  background-color:brown; 
+  color:white;
+}
+.btn:hover {
+  background-color:#ad4e0f;
+  color:white;
+}
+
+}
+
+.contact h1{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+.contact h1 span{
+  color:white;
+}
+
+/*contact*/
+.contact{
+  
+  padding-left: 50px;
+  padding-right:50px;
+  
+}
+/*contact section end*/
