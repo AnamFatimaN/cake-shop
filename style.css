@@ -114,11 +114,15 @@ body .about,.blogs,.contact{
   background-color: black;
   color: white;
    /*buttons*/
-.btn{
-  
-  background-color:brown; 
-  color:white;
-}
+
+   .btn{
+    width: 180px;
+    height: 50px;
+    background-color:brown; 
+    color:white;
+    font-size: x-large;
+  }
+
 .btn:hover {
   background-color:#ad4e0f;
   color:white;
