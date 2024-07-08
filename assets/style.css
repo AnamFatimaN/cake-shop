@@ -202,12 +202,12 @@ color: #e5bf4a !important; ;
     background-color: black;
     color: white;
      /*buttons*/
-  .contact .btn{
+  .contact .btn2{
     
     color: #E5BF4A;
     border: 1px solid #E5BF4A;
   }
-  .contact .btn:hover {
+  .contact .btn2:hover {
     background-color: #E5BF4A;
     border: 1px solid #E5BF4A;
     color: #fff !important;
@@ -256,6 +256,6 @@ color: #e5bf4a !important; ;
 .heading-2{
   font-family: "Poiret One", cursive;
   font-style: normal;
-  
+
 
 }
