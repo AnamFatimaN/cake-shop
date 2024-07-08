@@ -240,14 +240,7 @@ color: #e5bf4a !important; ;
     
   }
   /*contact section end*/
-#contactbg{
-    background-image: url(../assets/images/h2_hero1.jpg.webp);
-    
-    
 
-
-
-}
 .about-us .overlay {
   background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
 }
@@ -262,6 +255,10 @@ color: #e5bf4a !important; ;
   font-weight: 200;
 
 
+}
+.cakes{
+  padding-top: 100px;
+  
 }
 label{
   color: white;
@@ -522,3 +519,22 @@ label{
 }
 
 /* featured product end */
+.gallery-item {
+  margin-bottom: 30px;
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+.gallery-item .caption {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #fff;
+}
+.gallery-item .price {
+  text-align: center;
+  color: orange;
+  font-size: 1em;
+}
